@@ -111,27 +111,17 @@ function LoginPage() {
               required
             />
           </div>
-          <div className="form-group password-wrapper">
-            <label>Password</label>
-
-            <div className="password-input-box">
-              <input
-                type={showPassword ? "text" : "password"}
-                name="password"
-                value={formData.password}
-                onChange={handleChange}
-                placeholder="Enter your password"
-                required
-              />
-
-              <button
-                type="button"
-                className="eye-btn"
-                onClick={() => setShowPassword(!showPassword)}
-              >
-                {showPassword ? "🙈" : "👁️"}
-              </button>
-            </div>
+          <div className="form-group">
+            <label className="label-text">Password</label>
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className="input-field"
+              placeholder="At least 6 characters"
+              minLength={6}
+              required
+            />
           </div>
           <button
             type="submit"
