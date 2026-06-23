@@ -41,10 +41,10 @@ function ClassicTemplate({ sections, colors }) {
               <a href={personalInfo.linkedIn} style={styles.link}>LinkedIn</a>
             </>
           )}
-          {personalInfo.portfolio && (
+          {personalInfo.GitHub && (
             <>
               <span style={styles.separator}>|</span>
-              <a href={personalInfo.portfolio} style={styles.link}>Portfolio</a>
+              <a href={personalInfo.GitHub} style={styles.link}>Portfolio</a>
             </>
           )}
         </div>
