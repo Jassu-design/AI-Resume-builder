@@ -14,7 +14,8 @@ const FIELDS = [
   { key: 'phone', label: 'Phone', type: 'tel', placeholder: '+1 (555) 123-4567' },
   { key: 'location', label: 'Location', type: 'text', placeholder: 'San Francisco, CA' },
   { key: 'linkedIn', label: 'LinkedIn', type: 'url', placeholder: 'linkedin.com/in/johndoe' },
-  { key: 'portfolio', label: 'Portfolio', type: 'url', placeholder: 'johndoe.dev' },
+  { key: 'GitHub', label: 'GitHub', type: 'url', placeholder: 'github.com' },
+  { key: 'Potfolio', label: 'Potfolio', type: 'url', placeholder: 'jhon.dev' },
 ];
 
 function PersonalInfoForm() {
