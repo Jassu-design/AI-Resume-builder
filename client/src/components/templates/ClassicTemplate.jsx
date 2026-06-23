@@ -44,7 +44,7 @@ function ClassicTemplate({ sections, colors }) {
           {personalInfo.GitHub && (
             <>
               <span style={styles.separator}>|</span>
-              <a href={personalInfo.GitHub} style={styles.link}>Portfolio</a>
+              <a href={personalInfo.GitHub} style={styles.link}>GitHub</a>
             </>
           )}
         </div>
